@@ -32,3 +32,13 @@ p.best {
 p.smallprint {
   font-size: .8em
 }
+
+.special {
+  font-style: italic;
+}
+
+.different {
+  font-family: monospace;
+  color: #00BFFF;
+  font-size: 1.2em;
+}
