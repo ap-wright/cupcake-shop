@@ -1,38 +1,59 @@
 <!doctype html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Cupcake Shop</title>
   </head>
+
+<body>
 
   <h1>Cupcake Shop<h1>
 
   <h2>The best around!</h2>
 
-  <body>
-    <p class=flashy>If you're looking for cupcakes, you've come to the right place! We've got the best cupcakes around!</p>
-    <p class=best>My favourite cupcake:</p><BR>
-      <img src="img/cupcake3.jpg" alt="A picture of a cupcake."><BR>
+    <main>
+     <div class="container">
+          <p class=flashy>If you're looking for cupcakes, you've come to the right place! We've got the best cupcakes around!</p>
+          <BR>
+            <div class="image-hidden">
+              <p>Click here to see my favourite cupcake!</p>
+            </div>
+            <div class="image-showing">
+              <BR>
+              <p class=best>My favourite cupcake:</p><BR>
+                <img src="img/cupcake3.jpg" alt="A picture of a cupcake."><BR>
+            </div>
 
-    <p>You can order for parties and functions and receive a platter like this one:</p>
-    <br>
-      <img src="img/cupcake1.jpg" alt="A cupcake platter.">
-    <p class=smallprint>There's no garauntee you will like this one:</P>
-      <img src="img/cupcake2.jpg" alt="A pictures of lots of cupcakes.">
+            <div class="2image-hidden">
+              <p>Click here to see the cupcake platter.</p>
+              <br>
+            </div>
+            <BR>
 
-    <p><span class="special">Cupcake Recipe</span>
-      <span class="special">Ingredients</span>
-      <div class="different">
-        <ul><li>flour</li>
-          <li>milk</li>
-          <li>eggs</li>
-          <li>sugar</li></ul><br>
-          And whatever flavouring you choose. </div></p>
+            <div class="2image-showing">
+              <p>You can order for parties and functions and receive a platter like this one:</p>
+                <img src="img/cupcake1.jpg" alt="A cupcake platter.">
+            </div>
 
+            <p class=smallprint>There's no garauntee you will like this one:</P>
+              <img src="img/cupcake2.jpg" alt="A pictures of lots of cupcakes.">
 
-    </p>
+            <p><span class="special">Cupcake Recipe</span>
+              <span class="special">Ingredients</span>
+              <div class="different">
+                <ul><li>flour</li>
+                  <li>milk</li>
+                  <li>eggs</li>
+                  <li>sugar</li></ul><br>
+                  And whatever flavouring you choose. </div></p>
 
-    <p>You're sure to find one you like! <span class="special">Order now!</span></p>
+          <p>You're sure to find one you like! <span class="special">Order now!</span></p>
+
+      </div>
+    </main>
   </body>
 
 </html>

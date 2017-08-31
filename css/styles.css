@@ -42,3 +42,25 @@ p.smallprint {
   color: #00BFFF;
   font-size: 1.2em;
 }
+
+.image-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+
+  p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
